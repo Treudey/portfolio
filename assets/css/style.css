@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+@font-face {
+    font-family: 'Bebas Neue Bold';
+    src: url(../fonts/BebasNeue-Bold.ttf) format('truetype');
+}
+
+body {
+    background-image: url(../images/toronto-nightlights.jpg);
+    background-position: top center;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 4rem 2.5rem 1rem;
+}
+
+.navbar-light {
+    background-color: #4ed0aa !important;
+}
+
+.nav-photo {
+    width: 9rem;
+    height: 9rem;
+    position: absolute;
+    top: -3rem;
+    left: 2rem;
+}
+
+.nav-photo img {
+    width: 9rem;
+    height: 9rem;
+    border: 5px solid #ffffff;
+}
+
+.navbar-nav {
+    margin-left: auto;
+}
+
+.navbar-toggler {
+    float: right;
+}
+
+.navbar-nav .nav-item .nav-link {
+    color:#666;
+    font-size: 1.5rem;
+    font-family: 'Bebas Neue Bold', sans-serif;
+    border-right: 1.5px solid #666;
+    padding: .5rem 1rem;
+    line-height: 100%;
+}
+.navbar-nav .nav-item .nav-link:hover {
+    color: #ffffff;
+}
+
+.selected {
+    background-color: #3FA889;
+}
+
+.name {
+    color:#ffffff;
+    font-family: 'Bebas Neue Bold', sans-serif;
+    font-size: 2.75rem;
+    margin-bottom: 0;
+    padding: .25rem 0 3rem 10rem;
+}
+
+.subtitle {
+    color: #666;
+    font-family: 'Bebas Neue Bold', sans-serif;
+    font-size: 1.6rem;
+    position: absolute;
+    top: 4.25rem;
+    left: 12rem;
+}
+
+.main-content {
+    margin-top: 1.25rem;
+    padding: 2.5rem;
+    background-color: #ffffff;
+}
+
+.heading {
+    color:#515A5F;
+    font-family: 'Bebas Neue Bold', sans-serif;
+    font-size: 2.75rem;
+    padding-bottom: .75rem;
+    border-bottom: 5px solid #4ed0aa;
+    margin-bottom: 1rem;
+}
+
+.img-fluid { 
+    float: right;
+    max-width: 33%;
+    min-width: 12.5rem; 
+    margin: .25rem 0 1.5rem 1.5rem;
+}
+
+p { 
+    color: #666; 
+    font-family: 'Open Sans', sans-serif;
+}
+
+.btn {
+    color: #ffffff; 
+    border: none;
+    border-radius: 0;
+    background-color: #4ed0aa;
+    font-family: 'Open Sans', sans-serif;
+    box-shadow: inset 0 12px 19px rgba(255,255,255,0.1), 0 1px 7px rgba(0,0,0,0.2);
+}
+
+.main-btn {
+    height: 3rem;
+    width: 13rem;
+}
+
+.btn:hover {
+    background-color: #3FA889;
+    color: #ffffff;
+}
+
+footer {
+    background-color: #414146;
+    color: #d5d5d5;
+    padding: 2rem 2rem;
+    border-bottom: 1.25rem solid #4ed0aa;
+    margin-top: 1.25rem;
+}
+
+.footer-text {
+    color: #cccccc;
+    line-height: 3.2rem;
+    height: 3.2rem;
+    margin: 0;
+}
+
+.social-link {
+    float: right;
+    width: 3.1rem;
+    height: 3.1rem;
+    background: #cccccc;
+    color: #666;
+    font-size: 1.6rem;
+    line-height: 3.1rem;
+    text-align: center;
+    margin-left: .5rem;
+    border-bottom: 5px solid #4ed0aa;
+}
+
+.social-link:hover {
+    background: #4ed0aa;
+    color: #ffffff;
+}
+
+.card {
+    margin: .25rem 0 1.7rem 0;
+}
+
+.card,
+.card-img-top {
+    border: none;
+    border-radius: 0;
+    box-shadow: inset 0 12px 19px rgba(255,255,255,0.1), 0 1px 7px rgba(0,0,0,0.2);
+}
+
+.card-img-top {
+    width: 100%;
+    height: 17rem;
+    object-fit: cover;
+}
+
+.card-body.upper {
+    border-top: .3rem solid #4ed0aa;
+}
+
+.card-body.lower {
+    border-top: .05rem solid #83DEC3;
+}
+
+h5 {
+    color: #515A5F;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+}
+
+.card-btn {
+    height: 2.5rem;
+    width: 8rem;
+}
