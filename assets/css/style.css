@@ -5,29 +5,34 @@
     src: url(../fonts/BebasNeue-Bold.ttf) format('truetype');
 }
 
+
 body {
     background-image: url(../images/toronto-nightlights.jpg);
     background-position: top center;
     background-attachment: fixed;
     background-size: cover;
-    margin: 4rem 2.5rem 1rem;
+    max-width: 1200px;
+    margin: 5.5rem auto 1rem;
 }
+
+/* Navbar
+**********************************************************/
 
 .navbar-light {
     background-color: #4ed0aa !important;
 }
 
 .nav-photo {
-    width: 9rem;
-    height: 9rem;
+    width: 11rem;
+    height: 11rem;
     position: absolute;
-    top: -3rem;
+    top: -4.5rem;
     left: 2rem;
 }
 
 .nav-photo img {
-    width: 9rem;
-    height: 9rem;
+    width: 11rem;
+    height: 11rem;
     border: 5px solid #ffffff;
 }
 
@@ -41,12 +46,13 @@ body {
 
 .navbar-nav .nav-item .nav-link {
     color:#666;
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     font-family: 'Bebas Neue Bold', sans-serif;
     border-right: 1.5px solid #666;
-    padding: .5rem 1rem;
+    padding: .75rem 1.25rem;
     line-height: 100%;
 }
+
 .navbar-nav .nav-item .nav-link:hover {
     color: #ffffff;
 }
@@ -58,19 +64,22 @@ body {
 .name {
     color:#ffffff;
     font-family: 'Bebas Neue Bold', sans-serif;
-    font-size: 2.75rem;
+    font-size: 3.25rem;
     margin-bottom: 0;
-    padding: .25rem 0 3rem 10rem;
+    padding: .25rem 0 3rem 12rem;
 }
 
 .subtitle {
     color: #666;
     font-family: 'Bebas Neue Bold', sans-serif;
-    font-size: 1.6rem;
+    font-size: 2rem;
     position: absolute;
-    top: 4.25rem;
-    left: 12rem;
+    top: 4.5rem;
+    left: 14rem;
 }
+
+/* Main Content of Page
+********************************************************************/
 
 .main-content {
     margin-top: 1.25rem;
@@ -81,42 +90,148 @@ body {
 .heading {
     color:#515A5F;
     font-family: 'Bebas Neue Bold', sans-serif;
-    font-size: 2.75rem;
+    font-size: 3.25rem;
     padding-bottom: .75rem;
     border-bottom: 5px solid #4ed0aa;
-    margin-bottom: 1rem;
-}
-
-.img-fluid { 
-    float: right;
-    max-width: 33%;
-    min-width: 12.5rem; 
-    margin: .25rem 0 1.5rem 1.5rem;
+    margin-bottom: 1.25rem;
 }
 
 p { 
+    font-size: 1.25rem; 
     color: #666; 
     font-family: 'Open Sans', sans-serif;
 }
 
 .btn {
-    color: #ffffff; 
-    border: none;
     border-radius: 0;
-    background-color: #4ed0aa;
     font-family: 'Open Sans', sans-serif;
+    font-size: 1.25rem;
     box-shadow: inset 0 12px 19px rgba(255,255,255,0.1), 0 1px 7px rgba(0,0,0,0.2);
-}
-
-.main-btn {
-    height: 3rem;
-    width: 13rem;
 }
 
 .btn:hover {
     background-color: #3FA889;
     color: #ffffff;
 }
+
+/* About Me Content
+*********************************************************************/
+
+.img-fluid { 
+    float: right;
+    max-width: 30%;
+    min-width: 14rem; 
+    margin: .25rem 0 1.5rem 1.75rem;
+}
+
+.main-btn {
+    border: none;
+    color: #ffffff; 
+    background-color: #4ed0aa;
+    line-height: 3.5rem;
+    height: 4rem;
+    width: 15.5rem;
+    margin-top: 1rem;
+}
+
+/* Portfolio Cards
+***********************************************************************/
+
+.card {
+    margin: .25rem 0 1.7rem 0;
+}
+
+.card,
+.card-img-top {
+    border: none;
+    border-radius: 0;
+    box-shadow: inset 0 12px 19px rgba(255,255,255,0.1), 0 1px 7px rgba(0,0,0,0.2);
+}
+
+.card-img-top {
+    width: 100%;
+    height: 17rem;
+    object-fit: cover;
+}
+
+.card-body.upper {
+    height: 12rem;
+    border-top: .3rem solid #4ed0aa;
+}
+
+.card-body.lower {
+    border-top: .05rem solid #83DEC3;
+}
+
+h5 {
+    color: #515A5F;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+}
+
+.card-btn {
+    color: #4ed0aa; 
+    border: 1px solid #4ed0aa;
+    background-color: #ffffff;
+    line-height: 2rem;
+    height: 3rem;
+    width: 9.5rem;
+}
+
+.card-btn:hover {
+    background-color: #4ed0aa;
+}
+
+/* Contact Page
+*********************************************/
+
+
+.contact-card {
+    color: #666;
+    margin-bottom: 1.25rem;
+    border: 1px solid #ced4da;
+}
+
+.contact-card-icon {
+    display: inline-block;
+    width: 30%;
+    height: 3.1rem;
+    background: #4ed0aa;
+    font-size: 1.6rem;
+    line-height: 3.1rem;
+    text-align: center;
+}
+
+.contact-card-info {
+    display: inline-block;
+    text-align: center;
+    width: 65%;
+}
+
+.contact-card-info p {
+    margin-bottom: 0;
+}
+
+.form-control {
+    border-radius: 0;
+}
+
+input {
+    color: #666; 
+    font-family: 'Open Sans', sans-serif;
+}
+
+.submit-btn {
+    border: none;
+    color: #ffffff; 
+    background-color: #4ed0aa;
+    float: right;
+    height: 3rem;
+    width: 11rem;
+}
+
+/* Footer
+*********************************************/
 
 footer {
     background-color: #414146;
@@ -151,38 +266,64 @@ footer {
     color: #ffffff;
 }
 
-.card {
-    margin: .25rem 0 1.7rem 0;
-}
+/* Media Queries 
+***************************************************/
 
-.card,
-.card-img-top {
-    border: none;
-    border-radius: 0;
-    box-shadow: inset 0 12px 19px rgba(255,255,255,0.1), 0 1px 7px rgba(0,0,0,0.2);
-}
+@media only screen and (max-width: 1280px) {
+    body {
+        margin: 4rem 2.5rem 1rem;
+    }
 
-.card-img-top {
-    width: 100%;
-    height: 17rem;
-    object-fit: cover;
-}
+    .nav-photo {
+        width: 9rem;
+        height: 9rem;
+        top: -3rem;
+    }
+    
+    .nav-photo img {
+        width: 9rem;
+        height: 9rem;
+    }
 
-.card-body.upper {
-    border-top: .3rem solid #4ed0aa;
-}
+    .name {
+        font-size: 2.75rem;
+        padding: .25rem 0 3rem 10rem;
+    }
+    .navbar-nav .nav-item .nav-link {
+        font-size: 1.5rem;
+        padding: .5rem 1rem;
+    }
+    
+    .subtitle {
+        font-size: 1.6rem;
+        top: 4.25rem;
+        left: 12rem;
+    }
 
-.card-body.lower {
-    border-top: .05rem solid #83DEC3;
-}
+    .heading {
+        font-size: 2.75rem;
+    }
 
-h5 {
-    color: #515A5F;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: bold;
-}
+    p {
+        font-size: 1rem;
+    }
 
-.card-btn {
-    height: 2.5rem;
-    width: 8rem;
+    .btn {
+        font-size: 1rem;
+    }
+
+    .main-btn {
+        line-height: 2.5rem;
+        height: 3rem;
+        width: 13rem;
+    }
+
+    .card-body.upper {
+        height: 9.5rem;
+    }
+    .card-btn {
+        height: 2.5rem;
+        width: 8rem;
+    }
+
 }
