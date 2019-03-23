@@ -55,7 +55,8 @@ p,
 .input { font-family: 'Open Sans', sans-serif; }
 
 .btn,
-.card-img-top
+.card,
+.card-img-top,
 .form-control { border-radius: 0; }
 
 .contact-card-icon,
