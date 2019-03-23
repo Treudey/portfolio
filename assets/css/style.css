@@ -23,7 +23,8 @@ body {
 .submit-btn,
 .social-link:hover { background-color: #4ed0aa; }
 
-.btn:hover,
+.main-btn:hover,
+.submit-btn:hover,
 .selected { background-color: #3fa889; }
 
 .card-btn,
