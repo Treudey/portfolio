@@ -231,7 +231,7 @@ footer {
     line-height: 3.1rem;
     margin-left: .5rem;
     border-bottom: 5px solid #4ed0aa;
-    transition: color,background-color .30s ease-in-out;
+    transition: color, background-color .30s ease-in-out;
 }
 
 /* Media Queries 
