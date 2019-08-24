@@ -48,7 +48,8 @@ input,
 .card-title { color:#515A5F; }
 
 .navbar,
-.heading { font-family: 'Bebas Neue Bold', sans-serif; }
+.heading,
+.list-title { font-family: 'Bebas Neue Bold', sans-serif; }
 
 p,
 .btn,
@@ -135,6 +136,23 @@ p { font-size: 1.25rem; }
     max-width: 30%;
     min-width: 14rem; 
     margin: .25rem 0 1.5rem 1.75rem;
+}
+
+.skills {
+    overflow: hidden;
+}
+
+.list-title {
+    display: block;
+    color: #4ed0aa;
+    float: left;
+    font-size: 1.8rem;
+}
+
+.inline-list {
+    overflow: hidden;
+    padding-left: .5rem;
+    min-width: 3px;
 }
 
 .main-btn {
@@ -273,6 +291,7 @@ footer {
     }
 
     p { font-size: 1rem; }
+    .list-title { font-size: 1.5rem; }
 
     .btn { font-size: 1rem; }
     .main-btn {
