@@ -51,6 +51,10 @@ input,
 .heading,
 .list-title { font-family: 'Bebas Neue Bold', sans-serif; }
 
+.list-title,
+.card-bold,
+.card-btn { color: #4ed0aa; }
+
 p,
 .btn,
 .card-title,
@@ -144,7 +148,6 @@ p { font-size: 1.25rem; }
 
 .list-title {
     display: block;
-    color: #4ed0aa;
     float: left;
     font-size: 1.8rem;
 }
@@ -179,15 +182,19 @@ p { font-size: 1.25rem; }
     object-fit: cover;
 }
 
+.card-text { 
+    font-size: 1.2rem;
+    margin-bottom: .33rem; 
+}
+
 .card-body.upper {
-    height: 12rem;
+    height: 13.5rem;
     border-top: .3rem solid #4ed0aa; 
 }
 .card-title { font-weight: bold;}
 
 .card-body.lower { border-top: .05rem solid #83DEC3; }
 .card-btn {
-    color: #4ed0aa; 
     border: 1px solid #4ed0aa;
     line-height: 2rem;
     height: 3rem;
@@ -290,7 +297,8 @@ footer {
         margin-bottom: 1rem;
     }
 
-    p { font-size: 1rem; }
+    p,
+    .card-text { font-size: 1rem; }
     .list-title { font-size: 1.5rem; }
 
     .btn { font-size: 1rem; }
@@ -300,7 +308,7 @@ footer {
         width: 13rem;
     }
 
-    .card-body.upper { height: 9.5rem; }
+    .card-body.upper { height: 11.5rem; }
 
     .card-btn {
         line-height: 1.75rem;
@@ -342,7 +350,7 @@ footer {
 
     .card-img-top { height: 20rem; }
 
-    .card-body.upper { height: 8.5rem; }
+    .card-body.upper { height: 10.5rem; }
 
     .card-btn {
         line-height: 1.75rem;
@@ -402,7 +410,7 @@ footer {
 
     .card-body.upper {
         padding: .75rem;
-        height: 8.5rem;
+        height: 11.5rem;
     }
 
     .card-body.lower {
